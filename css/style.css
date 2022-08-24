@@ -1,0 +1,205 @@
+header{
+    margin:auto;
+    width: auto;
+    height: auto;
+    background-color:  rgb(25, 209, 25);
+    text-align: center;
+    font-style: italic;
+    color:black;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.titulo{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.formPrincipal{
+
+    text-align: center;
+    margin:10%;
+
+
+}
+
+.form-group {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    margin:0% 15% 2% 10%;
+
+}
+
+.form-group input{
+    background-color: rgb(65, 66, 65);
+}
+
+#usuario{
+    color:black;
+}
+
+.btn-primary {
+    background-color: rgb(192, 231, 19);
+    border-radius:20px;
+    border-color: white;
+    height: 40px;
+    width:30%;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 171, 238);
+    cursor: pointer;
+
+}
+
+.btnAgregarProducto{
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border:2px white solid;
+    border-radius: 10px;
+    height: 40px;
+    font-style: italic;
+}
+.btnAgregarProducto:hover , .botones:hover{
+    background-color: rgba(9, 240, 240, 0.438);
+    color:black;
+    cursor: pointer;
+}
+
+
+#nuevoProducto{
+    background-color: rgb(25, 209, 25);
+    text-align: center;
+    border:5px solid white;
+    margin-top:10px;
+    margin-bottom:10px;
+
+    
+}
+
+.formPrincipal{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#productoIngresadoNombre , #productoIngresadoPrecio , #productoIngresadoCantidad , #precioEnvio , #usuario , #contraseña{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    margin:10px 10px 10px 20px;
+
+}
+
+.botones{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(25, 209, 25);
+    color:black;
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    text-align: center;
+    border:2px solid white;
+    margin-top:10px;
+    margin-bottom:20px;
+
+}
+
+#botoneraProductos{
+
+    margin:10px auto auto auto;
+    text-align: center;
+    
+}
+
+#botoneraProductos input{
+    background-color: black;
+    color:white;
+    margin:auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+#botoneraProductos button{
+    background-color: lightblue;
+    margin:10px 35px;
+    text-align: center;
+}
+
+
+
+#botoneraProductos button:hover{
+    background-color: black;
+    color:white;
+   
+}
+
+#listaProductos{
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+    border:2px white solid;
+    width:50%;
+    margin: auto;
+}
+
+
+
+#productoAgregado {
+
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+    width:550px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    height: 35px;
+}
+
+#listaDeProductosParaSeleccion{
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    height: auto;
+}
+
+#resumenDeCompra{
+    font-size: 35px;
+    background-color: rgba(9, 240, 240, 0.438);
+    color:black;
+    margin: auto;
+    width:700px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+    border:7px solid white;
+    border-radius: 25px;
+}
+
+#mensajeFinalProducto {
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    width:30%;
+    text-align: center;
+    margin: 20px auto auto auto;
+    font-size: 30px;
+    font-style: italic;
+    height: auto;
+}

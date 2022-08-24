@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <title>Programación con Javascript</title>
+
+</head>
+<header>
+    <h1>Bienvenido <strong id="nombreUser">Usuario</strong></h1>
+</header>
+    
+<body>
+    <button class="botones" id="mostrarProductos">Mostrar Productos</button><br>
+
+  
+
+    <div id="listaProductos"></div>
+
+    <button class="botones" id="agregarProductos">Agregar Productos</button><br>
+
+    <form id="nuevoProducto">
+        <input type="text" placeholder="Nombre Producto" id="productoIngresadoNombre">
+        <input type="number" placeholder="Precio Producto" id="productoIngresadoPrecio">
+        <button type="button" class="btnAgregarProducto" id="enviarProducto" onclick="agregarProductos()">Agregar Producto</button>
+    </form>
+
+    <div id="productoAgregado"></div>
+
+    <button class="botones" id="seleccionarProductos">Seleccionar Productos</button><br>
+
+    <div id="listaDeProductosParaSeleccion"></div>
+    <div id="mensajeFinalProducto"></div>
+
+    <div id="botoneraProductos">
+        <button class="botones" id="siguienteProducto" onclick="alCarrito()">Agregar</button>
+        <input type="number" placeholder="Cantidad Producto" id="productoIngresadoCantidad"><br>
+        <button class="botones" id="siguienteProducto" onclick="omitirProducto()">Omitir</button><br>
+    </div>
+   
+
+    <button class="botones" id="incluirIVA">Incluir IVA</button><br>
+    <button class="botones" id="noIncluirIVA">No Incluir IVA</button><br>
+
+
+    <button class="botones" id="incluirEnvio">Incluir Envio</button>
+    <input type="number" placeholder="Cantidad Producto" id="precioEnvio"><br>
+
+    <div id="resumenDeCompra">
+        <h2><i>Resumen de Compra</i></h2>
+        <p>Su Total <strong>sin</strong> IVA fue de: <strong id="totalSinIVA">$0</strong></p>
+        <p>Su Total <strong>con</strong> IVA fue de: <strong id="totalConIVA">$0</strong></p>
+        <p>Su Total con Envio fue de: <strong id="totalConEnvio">$0</strong></p>
+    </div>
+
+</body>
+
+
+    <script src="js/mainScript.js"></script>
+
+</body>
+</html>
